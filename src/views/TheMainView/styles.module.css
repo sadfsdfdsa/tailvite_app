@@ -1,0 +1,17 @@
+.anim {
+    animation-duration: 1s;
+    animation-name: left-border-tick;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes left-border-tick {
+    0% {
+      border-right: 2px solid transparent;
+    }
+    50% {
+      border-right: 2px solid black;
+    }
+    100% {
+      border-right: 2px solid transparent;
+    }
+  }
